@@ -14,14 +14,18 @@ CONFIG_PACKAGE_alist=y
 CONFIG_PACKAGE_aliyundrive-fuse=y
 CONFIG_PACKAGE_aliyundrive-webdav=y
 CONFIG_PACKAGE_bash=y
+# CONFIG_PACKAGE_blkid is not set
 CONFIG_PACKAGE_boost=y
 CONFIG_PACKAGE_boost-program_options=y
 CONFIG_PACKAGE_boost-system=y
 CONFIG_PACKAGE_bzip2=y
+# CONFIG_PACKAGE_chinadns-ng is not set
 CONFIG_PACKAGE_coreutils-nohup=y
 CONFIG_PACKAGE_coreutils-stat=y
 CONFIG_PACKAGE_coreutils-stty=y
 CONFIG_PACKAGE_ddns-go=y
+# CONFIG_PACKAGE_dns2socks is not set
+# CONFIG_PACKAGE_dns2tcp is not set
 CONFIG_PACKAGE_dnsmasq_full_nftset=y
 CONFIG_PACKAGE_etherwake=y
 CONFIG_PACKAGE_frpc=y
@@ -38,6 +42,7 @@ CONFIG_PACKAGE_iputils-arping=y
 CONFIG_PACKAGE_ipv6helper=y
 CONFIG_PACKAGE_jansson=y
 CONFIG_PACKAGE_jq=y
+# CONFIG_PACKAGE_kmod-crypto-cbc is not set
 CONFIG_PACKAGE_kmod-crypto-ccm=y
 CONFIG_PACKAGE_kmod-crypto-cmac=y
 CONFIG_PACKAGE_kmod-crypto-ctr=y
@@ -82,48 +87,44 @@ CONFIG_PACKAGE_kmod-sit=y
 CONFIG_PACKAGE_libbz2=y
 CONFIG_PACKAGE_libcap-bin=y
 CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
+# CONFIG_PACKAGE_libcares is not set
+# CONFIG_PACKAGE_libev is not set
 CONFIG_PACKAGE_libfuse=y
 CONFIG_PACKAGE_libltdl=y
 CONFIG_PACKAGE_liblua5.3=y
 CONFIG_PACKAGE_liblzma=y
+# CONFIG_PACKAGE_libmbedtls is not set
 # CONFIG_PACKAGE_libminiupnpc is not set
 # CONFIG_PACKAGE_libnatpmp is not set
 CONFIG_PACKAGE_libnetsnmp=y
 CONFIG_PACKAGE_libnftnl=y
 CONFIG_PACKAGE_libruby=y
+# CONFIG_PACKAGE_libsodium is not set
+# CONFIG_PACKAGE_libudns is not set
 CONFIG_PACKAGE_libyaml=y
 CONFIG_PACKAGE_libzstd=y
 CONFIG_PACKAGE_lsblk=y
+# CONFIG_PACKAGE_lua-neturl is not set
 # CONFIG_PACKAGE_luci-app-accesscontrol is not set
 # CONFIG_PACKAGE_luci-app-adbyby-plus is not set
 CONFIG_PACKAGE_luci-app-adguardhome=y
-CONFIG_PACKAGE_luci-app-advanced=y
-CONFIG_PACKAGE_luci-app-advanced-reboot=y
-CONFIG_PACKAGE_luci-app-alist=y
-CONFIG_PACKAGE_luci-app-aliyundrive-fuse=y
-CONFIG_PACKAGE_luci-app-aliyundrive-webdav=y
 CONFIG_PACKAGE_luci-app-argon-config=y
 CONFIG_PACKAGE_luci-app-chatgpt=y
 CONFIG_PACKAGE_luci-app-cifs-mount=y
-CONFIG_PACKAGE_luci-app-ddns-go=y
-CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_PACKAGE_luci-app-clash=y
+# CONFIG_PACKAGE_luci-app-ddns is not set
+# CONFIG_PACKAGE_luci-app-diskman is not set
 CONFIG_PACKAGE_luci-app-frpc=y
 # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
 CONFIG_PACKAGE_luci-app-mwan3=y
 CONFIG_PACKAGE_luci-app-netdata=y
-CONFIG_PACKAGE_luci-app-nps=y
 CONFIG_PACKAGE_luci-app-openclash=y
-CONFIG_PACKAGE_luci-app-openvpn=y
-CONFIG_PACKAGE_luci-app-passwall=y
-CONFIG_PACKAGE_luci-app-passwall_Iptables_Transparent_Proxy=y
-CONFIG_PACKAGE_luci-app-passwall_Nftables_Transparent_Proxy=y
 CONFIG_PACKAGE_luci-app-poweroff=y
-CONFIG_PACKAGE_luci-app-pushbot=y
 CONFIG_PACKAGE_luci-app-qbittorrent=y
 CONFIG_PACKAGE_luci-app-qos=y
 CONFIG_PACKAGE_luci-app-quickstart=y
-CONFIG_PACKAGE_luci-app-smartdns=y
 CONFIG_PACKAGE_luci-app-socat=y
+# CONFIG_PACKAGE_luci-app-ssr-plus is not set
 CONFIG_PACKAGE_luci-app-store=y
 CONFIG_PACKAGE_luci-app-syncdial=y
 CONFIG_PACKAGE_luci-app-uugamebooster=y
@@ -132,25 +133,16 @@ CONFIG_PACKAGE_luci-app-wolplus=y
 # CONFIG_PACKAGE_luci-app-xlnetacc is not set
 # CONFIG_PACKAGE_luci-app-zerotier is not set
 CONFIG_PACKAGE_luci-compat=y
-CONFIG_PACKAGE_luci-i18n-advanced-reboot-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-alist-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-aliyundrive-fuse-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-aliyundrive-webdav-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-chatgpt-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-cifs-mount-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-ddns-go-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-frpc-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-mwan3-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-netdata-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-nps-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-openvpn-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-poweroff-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-qos-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-quickstart-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-socat-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-uugamebooster-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-wolplus-zh-cn=y
@@ -162,6 +154,7 @@ CONFIG_PACKAGE_luci-theme-neobird2=y
 CONFIG_PACKAGE_luci-theme-opentomcat=y
 CONFIG_PACKAGE_luci-theme-opentopd=y
 CONFIG_PACKAGE_mdadm=y
+# CONFIG_PACKAGE_microsocks is not set
 CONFIG_PACKAGE_mwan3=y
 CONFIG_PACKAGE_netdata=y
 CONFIG_PACKAGE_nftables-json=y
@@ -174,6 +167,7 @@ CONFIG_PACKAGE_openssh-sftp-server=y
 CONFIG_PACKAGE_qBittorrent-static=y
 CONFIG_PACKAGE_qos-scripts=y
 CONFIG_PACKAGE_quickstart=y
+# CONFIG_PACKAGE_resolveip is not set
 CONFIG_PACKAGE_ruby=y
 CONFIG_PACKAGE_ruby-bigdecimal=y
 CONFIG_PACKAGE_ruby-date=y
@@ -222,6 +216,14 @@ CONFIG_PACKAGE_shadow-userdel=y
 CONFIG_PACKAGE_shadow-usermod=y
 CONFIG_PACKAGE_shadow-utils=y
 CONFIG_PACKAGE_shadow-vipw=y
+# CONFIG_PACKAGE_shadowsocks-libev-ss-local is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-redir is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-server is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-check is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-server is not set
+# CONFIG_PACKAGE_simple-obfs is not set
 CONFIG_PACKAGE_smartd=y
 CONFIG_PACKAGE_smartdns=y
 CONFIG_PACKAGE_snmpd=y
@@ -230,6 +232,7 @@ CONFIG_PACKAGE_socat=y
 CONFIG_PACKAGE_tar=y
 CONFIG_PACKAGE_taskd=y
 CONFIG_PACKAGE_tc-tiny=y
+# CONFIG_PACKAGE_tcping is not set
 CONFIG_PACKAGE_trojan-plus=y
 CONFIG_PACKAGE_unzip=y
 CONFIG_PACKAGE_uugamebooster=y
@@ -238,9 +241,11 @@ CONFIG_PACKAGE_v2ray-geoip=y
 CONFIG_PACKAGE_v2ray-geosite=y
 CONFIG_PACKAGE_v2ray-plugin=y
 # CONFIG_PACKAGE_wireguard-tools is not set
+# CONFIG_PACKAGE_xray-core is not set
 CONFIG_PACKAGE_xz=y
 CONFIG_PACKAGE_xz-utils=y
 # CONFIG_PACKAGE_zerotier is not set
+CONFIG_QCOW2_IMAGES=y
 CONFIG_TARGET_KERNEL_PARTSIZE=30
 CONFIG_TARGET_ROOTFS_PARTSIZE=800
 # CONFIG_VMDK_IMAGES is not set
