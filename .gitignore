@@ -1,2 +1,3 @@
 build/lede/diy-part.sh
 build/lede/seed/x86_64
+.github/workflows/Lede.yml
